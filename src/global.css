@@ -1,0 +1,16 @@
+@keyframes moveBackground {
+    0% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
+.animated-background {
+    background-size: 200% 200%; /* Aumenta el tamaño del fondo */
+    animation: moveBackground 15s ease infinite; /* Controla la duración y el tipo de animación */
+}
